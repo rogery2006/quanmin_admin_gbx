@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ybg</groupId>
+	<artifactId>quanmin_admin</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<!--依赖spring boot -->
+	<properties>
+		<java.version>1.8</java.version>
+		<druid.version>1.0.26</druid.version>
+		<commons-httpclient.version>3.1</commons-httpclient.version>
+		<httpclient.version>4.5.2</httpclient.version>
+	</properties>
+	<modules>
+		<!--** 主要入口 必须 -->
+		<module>main</module>
+		<!--** DAO封装 必须 -->
+		<module>ybg_base_jdbc</module>
+		<!--** 工具类 ,必须 -->
+		<module>ybg_base_util</module>
+		<!--** 公共接口 必须 -->
+		<module>ybg_inter</module>
+		<!--** 权限底层 必须 -->
+		<module>ybg_rbac_base</module>
+		<!--** 权限管理 必须 -->
+		<module>ybg_rbac</module>
+		<!-- 企业模块 可删 -->
+		<module>ybg_company</module>
+		<!-- 微信模块 非必须 -->
+		<module>ybg_weixin</module>
+		<!-- 阿里MQ 非必须 -->
+		<module>ybg_mq</module>
+		<!--** email 必须 -->
+		<module>ybg_email</module>
+		<!-- json web token 非必须 -->
+		<module>ybg_jwt</module>
+		<!-- 定时任务 非必须 -->
+		<module>ybg_quartz</module>
+		<!--** 基础Jar 必须 -->
+		<module>ybg_base_jar</module>
+		<!-- 代码生成 必须 -->
+		<module>ybg_gen</module>
+		<!-- 教育子系统 -->
+		<module>edu</module>
+		<!-- 对象存储 -->
+		<module>ybg_oss</module>
+		<!-- 支付模块 -->
+		<module>pay-java-parent</module>
+		<module>ybg_sms</module>
+		<module>ybg_thirdpartlogin</module>
+    <module>ybg_weixin_api</module>
+    <module>ybg_kaptcha</module>
+    <module>ybg_activiti</module>
+  </modules>
+	<build>
+		<defaultGoal>compile</defaultGoal>
+	</build>
+</project>

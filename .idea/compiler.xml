@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="edu_city" />
+        <module name="edu_school" />
+        <module name="main" />
+        <module name="pay-java-ali" />
+        <module name="pay-java-common" />
+        <module name="pay-java-demo" />
+        <module name="pay-java-fuiou" />
+        <module name="pay-java-wx" />
+        <module name="pay-java-wx-youdian" />
+        <module name="ybg_activiti" />
+        <module name="ybg_base_jar" />
+        <module name="ybg_base_jdbc" />
+        <module name="ybg_base_util" />
+        <module name="ybg_company" />
+        <module name="ybg_email" />
+        <module name="ybg_gen" />
+        <module name="ybg_inter" />
+        <module name="ybg_jwt" />
+        <module name="ybg_kaptcha" />
+        <module name="ybg_login_baidu" />
+        <module name="ybg_login_mayun" />
+        <module name="ybg_login_qq" />
+        <module name="ybg_login_sina" />
+        <module name="ybg_login_weixin" />
+        <module name="ybg_mq" />
+        <module name="ybg_oss" />
+        <module name="ybg_quartz" />
+        <module name="ybg_rbac" />
+        <module name="ybg_rbac_base" />
+        <module name="ybg_sms_ali" />
+        <module name="ybg_weixin" />
+        <module name="ybg_weixin_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
