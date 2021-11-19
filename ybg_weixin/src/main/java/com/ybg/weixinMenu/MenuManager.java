@@ -10,13 +10,13 @@ public class MenuManager {
 	// 第三方用户唯一凭证密钥
 	// private static final String appSecret_test = "c3f9c4e87a99a46d7ee71654b942a629";//测试公众号密钥
 	// 第三方用户唯一凭证
-	private static final String	appId		= "wxf6ae0728b84f0fe2";																		// 正式公众号
+	private static final String	appId		= "";																		// 正式公众号
 	// 第三方用户唯一凭证密钥
 	private static final String	appSecret	= "";
 	private static final String	preUrl		= "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + appId + "&redirect_uri=";
 	private static final String	lastUrl		= "&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
 	// private static final String domain="http://deament.ngrok.cc/tj/";
-	private static final String	domain		= "http://xxpt.gdedu.gov.cn/tj/";
+	private static final String	domain		= "";
 	
 	public static void main(String[] args) {
 		// 调用接口获取access_token
